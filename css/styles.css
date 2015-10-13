@@ -1,0 +1,65 @@
+body{
+	background-color: #ccc;
+}
+#gallery-wrapper h1{
+	font-family: 'Asset', cursive;
+	font-size:50px;
+	color:blue;
+	text-align: center;
+	margin-bottom:20px;
+}
+.image{
+	float: left;
+	width:32.333%;
+	padding:.5%;	
+}
+.caption{
+	text-align: center;
+	background-color: blue;
+	color:white;
+	margin-top:-20px;
+	position: relative;
+}
+.portrait img{
+	width:100%;
+}
+.landscape img{
+	width:100%;
+}
+.five{
+	margin-top: 4%;
+}
+.four{
+	margin-top:4%;
+}
+.six{
+	clear:both;
+}
+.extra-stuff{
+	font-size: 20px;
+	float: left;
+	width: 32.3333%;
+	text-align: center;
+	background-color: blue;
+	color: white;
+	padding:10% 0;
+	margin-top:.5%;
+	margin-left:.5%;
+}
+.wide-image .landscape img{
+	max-width:100%;
+}
+@media screen and (max-width: 1000px) and (min-width: 601px){
+	.image{
+		width:45%;
+	}
+	.four{
+		clear:both;
+	}
+}
+@media screen and (max-width: 600px){
+	.image{
+		width:95%;
+	}
+}
+
